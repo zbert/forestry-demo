@@ -35,3 +35,8 @@ fields:
   type: text
   hidden: true
   default: person
+- name: image_blocking
+  type: include
+  config: {}
+  template: image-block
+  label: Image blocking
